@@ -196,9 +196,8 @@
             </section>
         </header>
         <div class="mainContent">
-            <section class="bgSection pi-text-light pi-custom-color pi-text-light spacing-top-60 parallax spacing-bottom-60 lazy-loaded" data-img-height="911" data-img-width="1920" data-stamp="c48913a119ace360" data-url="https://lh3.googleusercontent.com/_wvSgFlhQirbSlU6y1TUQ8afWK31NIUpbxmBHk-ZMb_bur6gOjMSrMYOSs7p2RePRCTFz2zW7nKfto0Iy9405UtUB7ndFigny9OIZ9uKtWxr7w"
-                style="">
-                <div class="bgSectionBackgroundColor" style="background-color: #473826; opacity: 0.5"></div>
+            <section class="bgSection spacing-top-60 parallax spacing-bottom-60  fullsize lazy-loaded" data-img-height="911" data-img-width="1920" data-stamp="c48913a119ace360" style="background-image: url(../assets/img/Pizza.jpg);">
+                <div class="bgSectionBackgroundColor" ></div>
                 <div class="container">
                     <div class="row-fluid">
                         <div class="span12">
@@ -210,7 +209,7 @@
                             </div>
                             <div class="widgetContainer">
                                 <div class="textContainer">
-                                    <h1 class="ql-align-center">Les pizzas</h1>
+                                    <h1 style="color: rgb(255, 255, 255);">Les pizzas</h1>
                                 </div>
                             </div>
                             <div class="widgetContainer">
@@ -593,7 +592,18 @@
             afterRenderPage[i].apply();
         };
     </script>
+<script>
+    if ($(window).width() > 600) {
+        document.getElementsByClassName('navbar-inner navbar-align-left ')[0].style.width = '100%';
+        document.getElementsByClassName('nav-collapse collapse nav-collapse-brand-logo')[0].style.fontSize = '18px';
+        var rsxB = document.getElementsByTagName('B');
+        document.getElementsByTagName('img')[0].style.width = '100px';
+        document.getElementsByTagName('img')[0].style.height = '100px';
+        for (var i = 0; i < rsxB.length; i++) {
+            rsxB.item(i).style.fontSize = 'xx-large';
+        }
+    }
+</script>
 </body>
-<!-- Mirrored from 6b3681bd.orson.website/4/menus by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Oct 2021 14:47:43 GMT -->
 
 </html>
