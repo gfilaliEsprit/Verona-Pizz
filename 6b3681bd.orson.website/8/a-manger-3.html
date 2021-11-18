@@ -203,7 +203,7 @@
               </div>
               <div class="widgetContainer">
                 <div class="textContainer">
-                  <h1  style="color: rgb(255, 255, 255);">Desserts et boissons</h1>
+                  <h1 class="ql-align-center" style="color: rgb(255, 255, 255);">Desserts et boissons</h1>
                 </div>
               </div>
               <div class="widgetContainer">
@@ -219,25 +219,25 @@
       <div id="menu" > 
         <div class="w3-container w3-white w3-padding-32">
           <h1 class="w3-center w3-jumbo w3-padding-32">DESSERTS</h1>
-        <h2><b>Yaourt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h2>
+        <h3><b>Yaourt</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h3>
         <hr>
-        <h2><b>Brownie</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h2>
+        <h3><b>Brownie</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h3>
         <hr>
-        <h2><b>Muffin</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$4.00</span></h2>
+        <h3><b>Muffin</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$4.00</span></h3>
         <hr>
-        <h2><b>Tarte aux</b> <span class="w3-tag w3-red w3-round">fruits</span>
-        <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h2>
+        <h3><b>Tarte aux</b> <span class="w3-tag w3-red w3-round">fruits</span>
+        <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h3>
         </div>
         
         <h1 class="w3-center w3-jumbo w3-padding-32">GLACES</h1>
         <div class="w3-container w3-white w3-padding-32">
         
-        <h2><b>Haagen Dazs</b> <span class="w3-tag w3-grey w3-round"></span>
-        <span class="w3-right w3-tag w3-dark-grey w3-round">$4.00</span></h2>
+        <h3><b>Haagen Dazs</b> <span class="w3-tag w3-grey w3-round"></span>
+        <span class="w3-right w3-tag w3-dark-grey w3-round">$4.00</span></h3>
         <p class="w3-text-grey">100 ml</p>
         <hr>
         
-        <h2><b>Haagen Dazs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.50</span></h2>
+        <h3><b>Haagen Dazs</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$7.50</span></h3>
         <p class="w3-text-grey">500 ml</p>
         <hr>
         </div>
@@ -245,20 +245,20 @@
         <h1 class="w3-center w3-jumbo w3-padding-32">Boissons</h1>
         <div class="w3-container w3-white w3-padding-32">
         
-        <h2><b>Coca-cola, Fanta, Orangina, Nestea</b> <span class="w3-tag w3-grey w3-round"></span>
-        <span class="w3-right w3-tag w3-dark-grey w3-round">$1.80</span></h2>
+        <h3><b>Coca-cola, Fanta, Orangina, Nestea</b> <span class="w3-tag w3-grey w3-round"></span>
+        <span class="w3-right w3-tag w3-dark-grey w3-round">$1.80</span></h3>
         <p class="w3-text-grey">33 cl</p>
         <hr>
         
-        <h2><b>Coca-cola, Fanta, Orangina</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.50</span></h2>
+        <h3><b>Coca-cola, Fanta, Orangina</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$3.50</span></h3>
         <p class="w3-text-grey">1.5L</p>
         <hr>
         
-        <h2><b>Eau minèrale</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1.60</span></h2>
+        <h3><b>Eau minèrale</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$1.60</span></h3>
         <p class="w3-text-grey">50 cl</p>
         <hr>
         
-        <h2><b>Eau minèrale</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h2>
+        <h3><b>Eau minèrale</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$2.50</span></h3>
         <p class="w3-text-grey">1.5 L</p>
         </div>
         </div>
@@ -329,7 +329,18 @@
     else window.addEventListener('load', loadDeferredStyles);</script>
   <script
     type="text/javascript">for (var i = 0; i < afterRenderPage.length; i++) { afterRenderPage[i].apply(); };</script>
-</body>
-<!-- Mirrored from 6b3681bd.orson.website/8/a-manger-3 by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Oct 2021 14:47:43 GMT -->
+    <script>
+      if ($(window).width() > 600) {
+          document.getElementsByClassName('navbar-inner navbar-align-left ')[0].style.width = '100%';
+          document.getElementsByClassName('nav-collapse collapse nav-collapse-brand-logo')[0].style.fontSize = '18px';
+          var rsxB = document.getElementsByTagName('B');
+          document.getElementsByTagName('img')[0].style.width = '100px';
+          document.getElementsByTagName('img')[0].style.height = '100px';
+          for (var i = 0; i < rsxB.length; i++) {
+              rsxB.item(i).style.fontSize = 'xx-large';
+          }
+      }
+  </script>
+  </body>
 
 </html>
