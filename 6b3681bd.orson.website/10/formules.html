@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <title>Formules</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/menu.css">
+  <script src="../assets/js/menu.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+  <link href="a-manger-3.html" rel="canonical" />
+  <meta content="6b3681bd" name="x-public-id" />
+  <meta content="" name="description" />
+  <meta content="fr" name="language" />
+  <meta charset="utf-8" />
+  <meta content="Orson.io" name="generator" />
+  <meta content="width=device-width" name="viewport" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" />
+  <meta content="true" name="HandheldFriendly" />
+  <meta content="width" name="MobileOptimized" />
+  <script type="text/javascript">var site = {};
+    site.colors = { "mainColor": "#ec4911", "secondColor": "#193441", "thirdColor": "#1e1e1e", "fourthColor": "#FFFFFF", "fifthColor": "#000000", "sixthColor": "#000000", "mainFont": "PTSerif", "secondFont": "PTSerif", "modularRatio": "0", "buttonStyle": "flat", "buttonBorderRadius": "50px", "baseFontSize": "16px" };
+
+    var loadFonts = function (colors) {
+
+      var fontsNotLoad = ["ClearSans", "ClearSansThin", 'Helvetica', 'Monaco', "TitilliumLight"];
+      var isNotGoogleFont = function (font) {
+        for (var i = 0; i < fontsNotLoad.length; i++) {
+          if (fontsNotLoad[i] == font) return true
+        }
+        return false
+      }
+
+      var setSpaceForFontName = function (s) {
+        return s.replace(/([a-z])([A-Z])/g, '$1 $2');
+      }
+
+      var getGoogleFont = function (type, font) {
+        if (isNotGoogleFont(font)) return;
+        if (type == 'mainFont') {
+          css.innerHTML += "body { font-family: '" + colors.mainFont + "' };";
+        } else {
+          css.innerHTML += " h1,h2,h3,h4,h5,h6 {'" + colors.secondFont + "' }";
+        }
+        font = setSpaceForFontName(font);
+        var fontsWeight = ':400,700';
+        if (font === 'Roboto' || font === 'Open Sans') fontsWeight = ':300,400';
+        fontsToLoad.push(font + fontsWeight);
+      }
+
+      var fontsToLoad = [];
+      var css = document.createElement("style");
+      css.type = "text/css";
+
+      getGoogleFont('mainFont', colors.mainFont);
+      getGoogleFont('secondFont', colors.secondFont);
+
+      document.getElementsByTagName("head")[0].appendChild(css);
+
+      WebFontConfig = {
+        google: { families: fontsToLoad }
+      };
+
+      (function () {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    }
+
+    loadFonts(site.colors);</script>
+  <style type="text/css">
+    #bodyBackgroundOverlay {
+      background: white;
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      height: 100%;
+      z-index: 999;
+    }
+
+    .lz-load {
+      transition: opacity 0.3s ease-in-out;
+      opacity: 0;
+    }
+
+    .lz-load.fade-in {
+      opacity: 1;
+      transition: none;
+      /*transition prevent display of image in safari https://www.feelmproduction.com/13/nos-photos-portrait*/
+    }
+
+    #privateBackground {
+      text-align: center;
+      padding-top: 12%;
+    }
+
+    #privateBackground .fa-5 {
+      font-size: 6em;
+    }
+  </style>
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token"
+    content="bn3Hl/VTZDhrEjn4GesnzmPksiov5+z3RRi/W9Hda/NUGq0e78sNqCc4Qr08tfDr0BFqjVIUJwxhoQNrcH2w0Q==" />
+</head>
+
+<body>
+    <div class="bodyBackground"></div>
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+              title="Close (Esc)"></button><button class="pswp__button pswp__button--fs"
+              title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom"
+              title="Zoom in/out"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button><button
+            class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__center pi-text-light"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bodyBackgroundContainer">
+      <div id="bodyBackgroundOverlay"></div>
+      <header>
+        <section class="bgSection pi-custom-color  spacing-top-60  spacing-bottom-60 lazy-loaded"
+          data-stamp="13b572c8b601de34" style="">
+          <div class="bgSectionBackgroundColor" style="background-color: #ffffff; opacity: 0.98"></div>
+          <div class="container">
+            <div class="row-fluid">
+              <div class="span12">
+                <div class="widgetContainer">
+                  <div class="menuContainer">
+                    <div class="navbar navbar-static-top">
+                      <div class="navbar-inner navbar-align-left ">
+                        <div class="brand-logo " data-brand-text-adapt-min-font-size="11"
+                          data-brand-text-adapt-original-size="20" data-brand-text-adapt-parent="navbar"><a
+                            href="../index.html" title="VERONA"><img alt="VERONA" height="48"
+                              src="https://lh3.googleusercontent.com/zIdTtZs7oXXta8DkwtVQkHtghwzFG4QpwzSYckCw_2gqEZ3h0WFMW2IjvmDE-RrVvvEAuvEqzA6pcqdzKMhyWr4EPikBcy_NZTifKEwBpajxUlbL0GF3bB7HNIk=s80"
+                              style="object-fit:contain"></a></div><button class="btn btn-navbar"
+                          data-target="#nav-5693734eb2a7162dd300002e" data-toggle="collapse" type="button"><span
+                            class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <div class="nav-collapse collapse nav-collapse-brand-logo" id="nav-5693734eb2a7162dd300002e">
+                          <ul class="nav pull-right">
+                            <li><a href="../4/menus.html" title="Les Pizzas"><span></span>PIZZAS</a></li>
+                            <li><a href="../6/a-manger-1.html" title="Les Pâtes"><span></span>PATES</a></li>
+                            <li><a href="../9/entrees-salades.html" title="Hamburgers et plats"><span></span>ENTREES ET SALADES</a></li>
+                            <li><a href="../7/a-manger-2.html" title="Hamburgers et plats"><span></span>HAMBURGERS ET PLATS</a></li>
+                            <li><a href="formules.html" title="Hamburgers et plats"><span></span>FORMULES</a></li>
+                            <li><a href="../8/a-manger-3.html" title="Desserts et boissons"><span></span>DESSERTS ET BOISSONS</a></li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </header>
+      <div class="mainContent">
+        <section class="bgSection spacing-top-60 parallax spacing-bottom-60  fullsize lazy-loaded" data-img-height="911" data-img-width="1920" data-stamp="c48913a119ace360" style="background-image: url(../assets/img/formules.jpg);">
+            <div class="bgSectionBackgroundColor" ></div>
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widgetContainer">
+                            <div class="spaceContainer m"></div>
+                        </div>
+                        <div class="widgetContainer">
+                            <div class="spaceContainer xl"></div>
+                        </div>
+                        <div class="widgetContainer">
+                            <div class="textContainer">
+                                <h1 style="color: rgb(255, 255, 255);">Les formules</h1> 
+                            </div>
+                        </div>
+                        <div class="widgetContainer">
+                            <div class="spaceContainer xl"></div>
+                        </div>
+                        <div class="widgetContainer">
+                            <div class="spaceContainer m"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bgSection spacing-top-3  spacing-bottom-0 lazy-loaded" data-stamp="e46e5d9f98c0e68e" style="">
+            <div class="bgSectionBackgroundColor" style=" opacity: 1"></div>
+            <div class="container">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <div class="widgetContainer">
+                            <div class="textContainer">
+                                <h1 class="ql-align-center"><strong>Formules</strong></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<section class="bgSection pi-text-dark spacing-top-3  spacing-bottom-3 lazy-loaded" data-stamp="33a3168844e41e5c" style="">
+    <div class="bgSectionBackgroundColor" style=""></div>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span3 groupSpanContainer pi-custom-color pi-text-dark">
+                <div class="rowBackgroundColor" style="background-color: #87d909; opacity: 1"></div>
+                <div class="widgetContainer">
+                    <div class="spaceContainer s"></div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">MENU</strong></h3>
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">SOLO</strong></h3>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <p class="ql-align-center"><br></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 pizza moyenne au choix&nbsp;</span>
+                        </p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);"></span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">6 nuggets ou 6 chicken wing&nbsp;</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 boisson 33 cl au choix</span>
+                        </p>
+                        <p class="ql-align-center"><br></p>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer" style="margin-top: 33px;">
+                        <h3 class="ql-align-center"><span style="color: rgb(255, 255, 255); margin-inline: 15px;">15.5€</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="span3 groupSpanContainer pi-custom-color pi-text-dark">
+                <div class="rowBackgroundColor" style="background-color: #87d909; opacity: 1"></div>
+                <div class="widgetContainer">
+                    <div class="spaceContainer s"></div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">MENU</strong></h3>
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">DÉLICE</strong></h3>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <p class="ql-align-center"><br></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 pizza MAXI au choix&nbsp;</span>
+                        </p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">4 arancini</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">6 nuggets ou 6 chicken
+          wings&nbsp;</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 boisson 1.5 l au choix</span>
+                        </p>
+                        <p class="ql-align-center"><br></p>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><span style="color: rgb(255, 255, 255);">26€</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="span3 groupSpanContainer pi-custom-color pi-text-dark">
+                <div class="rowBackgroundColor" style="background-color: #87d909; opacity: 1"></div>
+                <div class="widgetContainer">
+                    <div class="spaceContainer s"></div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">MENU</strong></h3>
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">DUO</strong></h3>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <p class="ql-align-center"><br></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 pizza MAXI au choix&nbsp;</span>
+                        </p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);"></span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">3 arancini ou 6 chicken wings&nbsp;</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">2 boissons 33 cl au choix</span>
+                        </p>
+                        <p class="ql-align-center"><br></p>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer" style="margin-top: 55px;">
+                        <h3 class="ql-align-center"><span style="color: rgb(255, 255, 255);">19.5€</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="span3 groupSpanContainer pi-custom-color pi-text-dark">
+                <div class="rowBackgroundColor pi-background-mainColor"></div>
+                <div class="widgetContainer">
+                    <div class="spaceContainer s"></div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">MENU</strong></h3>
+                        <h3 class="ql-align-center"><strong style="color: rgb(255, 255, 255);">VERONA</strong></h3>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <p class="ql-align-center"><br></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">2 pizza MAXI au choix&nbsp;</span>
+                        </p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">6 arancini&nbsp;</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">6 nuggets ou 6 chicken
+          wings&nbsp;</span></p>
+                        <p class="ql-align-center"><span style="color: rgb(255, 255, 255);">1 boissons 1.5 l au choix</span>
+                        </p>
+                        <p><br></p>
+                    </div>
+                </div>
+                <div class="widgetContainer">
+                    <div class="textContainer">
+                        <h3 class="ql-align-center"><span style="color: rgb(255, 255, 255);">35€</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+      </div>
+      <footer>
+        <section
+        class="bgSection pi-background-mainColor pi-text-light-shadowed spacing-top-60  spacing-bottom-60 lazy-loaded"
+        data-stamp="39ae6743cb3b6eb9">
+        <div class="bgSectionBackgroundColor pi-background-mainColor" style=" opacity: 1"></div>
+        <div class="container">
+          <div class="row-fluid">
+            <div class="span12">
+              <div class="widgetContainer">
+                <div class="sharelinkContainer text-center"><a
+                    class="sharelink sharelink-facebook sharelink-color-white sharelink-style sharelink-size"
+                    href="https://www.facebook.com/www.pizzaVerona.fr" target="_blank" title="Facebook"><i
+                      aria-hidden="true" class="fa fa-facebook"></i></a></div>
+              </div>
+              <div class="widgetContainer">
+                <div class="textContainer">
+                  <p class="ql-align-center">Vérona Pizzeria</p>
+                  <p class="ql-align-center">14, place du théâtre - Dijon </p>
+                  <p class="ql-align-center"><br></p>
+                  <p class="ql-align-center">Site réalisé par&nbsp;<a href="http://www.adrem-communication.com/"
+                      target="_blank">ADREM Communication</a>&nbsp;© 2021</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </footer>
+      <div class="bodyBackgroundOverlay"></div>
+  </div><noscript id="deferred-styles">
+    <link rel="stylesheet" media="all"
+      href="../../945e69e9f57bd8a7f9a7-dde498fccb50b45f74aa952df6f23b83.ssl.cf1.rackcdn.com/assets/themes/risingly/application-21720e880a7b692aafd643b4fb8f60ff.css"
+      id="application-style" />
+    <link rel="stylesheet" media="all"
+      href="../../e05f433bf807fec52f1b-8b78f4a1c3cecae8e875354bda80d3db.ssl.cf1.rackcdn.com/6169d91ab828ed5f80f6eaa0/custom_6169d91ab828ed5f80f6eaa0.css"
+      id="custom-style" />
+  </noscript>
+  <script
+    src="../../945e69e9f57bd8a7f9a7-dde498fccb50b45f74aa952df6f23b83.ssl.cf1.rackcdn.com/assets/themes/risingly/application-e50e6b8bd788557d24212da962a945d3.js"></script>
+  <script
+    src="../../945e69e9f57bd8a7f9a7-dde498fccb50b45f74aa952df6f23b83.ssl.cf1.rackcdn.com/assets/plugins-0290eef20131344227ad97aae8fd929d.js"></script>
+  <script
+    src="../../945e69e9f57bd8a7f9a7-dde498fccb50b45f74aa952df6f23b83.ssl.cf1.rackcdn.com/assets/widgets_init-fc159364ad36163afa155e73fd5114a2.js"></script>
+  <script type="text/javascript">var afterRenderPage = [];
+    var sitePlugins = { "bootstrap": {}, "plugins": { "scrollReveal": false } };
+    var loadDeferredStyles = function () {
+      var addStylesNode = document.getElementById("deferred-styles");
+      var replacement = document.createElement("div");
+      replacement.innerHTML = addStylesNode.textContent;
+      document.head.appendChild(replacement)
+      addStylesNode.parentElement.removeChild(addStylesNode);
+
+      var bodyBackgroundOverlay = document.getElementById("bodyBackgroundOverlay");
+
+      document.getElementById("application-style").onload = function () {
+        bodyBackgroundOverlay.parentNode.removeChild(bodyBackgroundOverlay);
+        initPlugins()
+        alignMobileButton()
+      };
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+      webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(function () { window.setTimeout(loadDeferredStyles, 0); });
+    else window.addEventListener('load', loadDeferredStyles);</script>
+  <script
+    type="text/javascript">for (var i = 0; i < afterRenderPage.length; i++) { afterRenderPage[i].apply(); };</script>
+    <script>
+      if ($(window).width() > 600) {
+          document.getElementsByClassName('navbar-inner navbar-align-left ')[0].style.width = '100%';
+          document.getElementsByClassName('nav-collapse collapse nav-collapse-brand-logo')[0].style.fontSize = '18px';
+          var rsxB = document.getElementsByTagName('B');
+          document.getElementsByTagName('img')[0].style.width = '100px';
+          document.getElementsByTagName('img')[0].style.height = '100px';
+          for (var i = 0; i < rsxB.length; i++) {
+              rsxB.item(i).style.fontSize = 'xx-large';
+          }
+      }
+  </script>
+</body>
+</html>
